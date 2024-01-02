@@ -1,0 +1,29 @@
+<!-- 
+    Multi-line comments start with /* and end with */.
+    Any text between /* and */ will be ignored by JavaScript. 
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1 id="myH"></h1>
+    <p id="myP"></p>
+
+    <script>
+        /*
+        The code below will change
+        the heading with id = "myH"
+        and the paragraph with id = "myP"
+        */
+        document.getElementById("myH").innerHTML = "JavaScript Comments";
+        document.getElementById("myP").innerHTML = "My first paragraph.";
+    </script>
+</body>
+
+</html>
